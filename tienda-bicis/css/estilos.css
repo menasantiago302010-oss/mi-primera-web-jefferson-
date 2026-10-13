@@ -1,0 +1,86 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+    background-color: #eaf4fb;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2b6777;
+}
+
+h2 {
+    color: #2b6777;
+}
+
+nav#menu {
+    background-color: #2b6777;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav#menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav#menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.intro {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.bici {
+    background-color: white;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+.bici img {
+    max-width: 100%;
+}
+
+form label {
+    display: inline-block;
+    width: 180px;
+}
+
+form p {
+    margin: 10px 0;
+}
+
+fieldset {
+    margin: 15px 0;
+}
+
+button {
+    background-color: #2b6777;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
